@@ -643,4 +643,7 @@
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">235</integer>
 
+    <!-- Whether device supports gestures on fingerprint sensor -->
+    <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
+
 </resources>
