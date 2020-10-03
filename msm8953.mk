@@ -438,6 +438,7 @@ PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 USE_DEX2OAT_DEBUG := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
+    NexusLauncherRelease \
     Settings \
     SystemUI
 
