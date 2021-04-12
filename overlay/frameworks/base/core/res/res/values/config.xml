@@ -557,4 +557,9 @@
     which we the system will not show crash, ANR,
          etc. dialogs. --> 
      <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
+    <!-- Smart charging -->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 </resources>
