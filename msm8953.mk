@@ -88,8 +88,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.1-impl \
-    audio.a2dp.default \
+    android.hardware.soundtrigger@2.1-impl
+
+PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.msm8953 \
     audio.r_submix.default \
