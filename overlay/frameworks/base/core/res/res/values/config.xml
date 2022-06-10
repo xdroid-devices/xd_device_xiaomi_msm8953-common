@@ -641,4 +641,5 @@
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
 
     <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
 </resources>
