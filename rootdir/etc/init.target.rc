@@ -216,6 +216,9 @@ on boot
     chmod 0664 /dev/cpuset/camera-daemon/tasks
     chown system system /sys/kernel/hbtp/display_pwr
 
+    # Change permissions for /dev/diag
+    chmod 0666 /dev/diag
+
 # access permission for DT2W
     chown 0644 /proc/touchpanel/enable_dt2w
 
